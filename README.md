@@ -141,13 +141,3 @@ The model outputs (`powerbi_ecl_loan_predictions.csv` and `powerbi_pd_feature_im
 3. **Collection Optimization on High-EAD Defaults:** Even a **5% improvement in post-charge-off recovery rates** across Grades C and D would reduce required MFRS 9 / IFRS 9 loss provisions by over **$10M+**.
 
 ---
-
-## 🚀 How to Reproduce This Project
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/yourusername/retail-loan-ecl-modeling.git
-   cd retail-loan-ecl-modeling
-   ```
-2. **Database Setup:** Run `sql/01_schema_and_bulk_load.sql` in MySQL Workbench to create the normalized schema and load the cleaned CSV tables.
-3. **Run the Python Pipeline:** Install dependencies (`pip install pandas numpy sqlalchemy mysql-connector-python scikit-learn`) and execute `notebooks/02_pd_ecl_modeling_pipeline.ipynb`.
-4. **Explore the Dashboard:** Open `dashboard/Retail_Loan_ECL_Dashboard.pbix` in Power BI Desktop.
